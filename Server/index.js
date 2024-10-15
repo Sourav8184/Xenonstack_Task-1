@@ -9,7 +9,7 @@ const __dirname = path.resolve();
 const app = express();
 
 // Middlewares:
-app.use(express.static(path.join(__dirname, "/client/dist")));
+app.use(express.static(path.join(__dirname, "/Client/dist")));
 app.use(cookieParser());
 app.use(express.json());
 
